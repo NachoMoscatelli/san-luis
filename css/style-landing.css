@@ -1,0 +1,655 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Jost", helvetica;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:visited{
+    color: white;
+}
+
+
+p{
+    line-height: 30px;
+}
+
+p i {
+    font-size: smaller;
+}
+
+html {
+    background-color: #FAFAFA;
+}
+
+
+/* ------------------MAIN-------------------- */
+
+main {
+    background-color: #FEFEFE;
+    margin-top: 120px;
+}
+
+/* ------------------BANNER-------------------- */
+
+h1{
+    color: #343F64;
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: bold;
+}
+
+#banner {
+    padding: 20px 0 20px 0;
+    background-color: #FEFEFE;
+}
+
+
+#banner > div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner p {
+    color: #69718b;
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+#banner h2 {
+    color: rgb(233, 219, 137);
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 44px;
+}
+
+#banner img {
+    width: 70%;
+    max-width: 600px;
+    position: relative;
+    right: 50px;
+    z-index: 1;
+}
+
+#banner-container {
+    width: 520px;
+    float: left;
+    position: relative;
+    left: 50px;
+    z-index: 5;
+}
+
+#banner-container ul {
+    margin-top: 30px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#banner-container li {
+    display: block;
+}
+
+#banner-container li a {
+    color: #343F64;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: sans-serif;
+    background-color: rgb(233, 219, 137);
+    padding: 18px 45px;
+    border-radius: 35px;
+}
+
+#banner-container li a:hover {
+    background-color: #FFDE5F;
+   
+}
+
+/* ------------------DESCRIPCION-------------------- */
+
+#descripcion {
+    background-color: #69718b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#descripcion div {
+    color: #343F64;
+    background-color: #FEFEFE;
+    padding: 75px 150px 75px 150px;
+    max-width: 700px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 34px;
+}
+
+/* ------------------NIVELEs-------------------- */
+
+#niveles {
+    background-color: #69718b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#niveles > div {
+    padding: 40px 0 0 0;
+    width: 100%;
+    max-width: 1000px;
+    background-color: #343F64;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#niveles h3 {
+    font-size: 48px;
+    color: #FEFEFE;
+    margin-bottom: 40px;
+}
+
+#niveles-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#niveles-container article {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FEFEFE;
+}
+
+#niveles h4{
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: #E0E6F6 0 0 3px;
+}
+
+#niveles p{
+    font-size: 20px;
+    color: #69718b;
+    text-shadow: #E0E6F6 0 0 3px;
+}
+
+#nivel-inicial {
+    background-image: url("../images/niveles/jardin.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#nivel-primario {
+    background-image: url("../images/niveles/primaria.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#nivel-secundario {
+    background-image: url("../images/niveles/secundaria.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#nivel-slse {
+    background-image: url("../images/niveles/slse.jpg");
+    background-position: center;
+    background-size: cover; 
+}
+
+/* ------------------NOSOTROS-------------------- */
+
+#nosotros {
+    background-color: #69718b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nosotros > div {
+    color: #343F64;
+    background-color: #FEFEFE;
+    padding: 160px 50px 0 50px;
+    max-width: 900px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: wrap;
+}
+
+#nosotros article {
+    margin: 0 5px 60px 5px;
+    width: min-content;
+    transition: all linear 100ms;
+}
+
+#nosotros article:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+    transition: all linear 100ms;
+}
+
+.circle-logo {
+    width: 190px;
+    height: 190px;
+    background-color: #E0E6F6;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#nosotros img {
+    width: 100%;
+}
+
+/* ------------------TESTIMONIOS-------------------- */
+
+#testimonios {
+    width: 100%;
+    color: #FEFEFE;
+    padding: 60px 0;
+    text-align: center;
+    background-color: #69718b;
+    background-image: url("./images/fondo-SL.JPG");
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#testimonios h3 {
+    font-size: 82px;
+}
+
+#testimonio-container {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimonio {
+    margin-bottom: 20px;
+    padding: 20px;
+    display: block;
+    width: 25%;
+    min-width: 250px;
+    background-color: #343f6474;
+}
+
+#nosotros article p {
+    font-size: 25px;
+}
+
+.autor {
+    margin-top: 20px;
+}
+/* ------------------INSCRIPCIONES-------------------- */
+
+#inscripciones {
+    padding: 100px 30px;
+    background-color: #343F64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inscripciones h3 {
+    font-size: 44px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#inscripciones a {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 20px 35px;
+    background-color: rgb(233,219,137);
+    border-radius: 50px;
+    transition: all ease 300ms;
+}
+
+#inscripciones a:hover {
+    background-color: #C74300;
+    border-radius: 20px;
+    transition: all ease 300ms;
+}
+
+/* ------------------CONTACTO-------------------- */
+
+#contacto {
+    padding: 140px 0 0 0;
+    background-color: #FFFFFF;
+    color: #343F64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#contacto h3 {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+#contacto h3 {
+    font-size: 32px;
+}
+
+#contacto-info {
+    float: left;
+    margin-right: 30px;
+}
+
+#contacto-info li {
+    list-style: none;
+    color: #343F64;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#contacto-info li a {
+    text-decoration: none;
+}
+#contacto-info li a:visited {
+    text-decoration: none;
+    color: #343F64;
+}
+
+#contacto-info li i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+li#redes {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li#redes a {
+    margin: 5px;
+    background-color: #343F64;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+li#redes a i {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+/* ------------------CONSULTA------------------- */
+
+#consulta-inscripciones {
+    padding-top: 140px;
+    padding-bottom: 40px;
+}
+
+
+/* ----------------------TABLET------------------------*/
+
+@media (max-width: 1023px){
+
+    /* #ig, #mail{
+        display: none;
+    } */
+
+    /*------------------BANNER-----------------*/
+
+    #banner {
+        padding: 40px 0;
+    }
+
+    #banner-container {
+        left: unset;
+        position: absolute;
+        top: 180px;
+        background-color: #959cb28f;
+        padding: 30px;
+        border-radius: 5px;
+    }
+    
+    #banner-container h1 {
+        text-shadow: #FFFFFF 0 0 10px;
+    }
+
+
+    #banner-container p {
+        text-shadow: #FFFFFF 0 0 10px;
+    }
+
+    #banner img {
+        width: max-content;
+        right: unset;
+        content: url('../images/collage-banner.png');
+    }
+
+    /*-------------NIVELES--------------*/
+    
+    #niveles-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*-------------NOSOTROS--------------*/
+    #nosotros > div {
+        justify-content: space-evenly;
+    }
+
+    #nosotros article {
+        width: 130px;
+    }
+
+
+    #nosotros article p{
+        font-size: 22px;
+    }
+
+    .circle-logo {
+        width: 130px;
+        height: 130px;
+    }
+
+
+    /*-------------CONTACTO--------------*/
+    
+    #contacto-info {
+        margin-right: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    #contacto-info h3{
+        margin-bottom: 25px;
+        font-size: 46px;
+    }
+
+    #contacto-info h4{
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    #contacto-info li{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    #contacto-info p{
+        font-size: 18px;
+    }
+
+    li#redes a {
+        width: 35px;
+        height: 35px;
+        margin: 10px;
+    }
+    
+    li#redes a i {
+        font-size: 18px;
+    }
+
+}
+
+/* ----------------------CELULAR------------------------*/
+
+@media (max-width: 650px){
+
+    /*----------- BANNER ------------*/
+    
+    h1{
+        font-size: 46px;
+        line-height: 54px;
+        font-weight: bold;
+    }
+
+    #banner{
+        padding-top: 20px;
+    }
+
+    #banner p {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 10px 5px;
+    }
+
+    #banner h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    #banner img{
+        width: 80%;
+        min-width: 300px;
+    }
+
+    #banner > div {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #banner-container {
+        text-align: center;
+        left: unset;
+        position: relative;
+        top: unset;
+        background-color: unset;
+        padding: 20px;
+        border-radius: unset;
+        width: fit-content;
+    }
+
+
+    #banner-container ul {
+        margin-top: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+
+
+    #banner-container li {
+        margin-top: 30px;
+    }
+
+    #banner-container li a {
+        font-size: 20px;
+        padding: 10px 17px;
+    }
+
+
+    /*-----------DESCRIPCION------------*/
+
+    #descripcion div {
+        padding: 50px;
+        font-size: 20px;
+    }
+    /*-------------NIVELES--------------*/
+        
+    #niveles-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*-----------NOSOTROS------------*/
+
+    #nosotros article {
+        width: 100px;
+    }
+
+
+    #nosotros article p{
+        font-size: 16px;
+    }
+
+    .circle-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*-----------TESTIMONIOS------------*/
+    #testimonios h3 {
+        font-size: 56px;
+    }
+
+
+    /*-----------INSCRIPCIONES------------*/
+    #inscripciones {
+        flex-direction: column;
+    }
+
+    #inscripciones h3{
+        margin-bottom: 30px;
+        margin-right: 0;
+        font-size: 38px;
+        text-align: center;
+    }
+
+    /*-----------CONTACTO------------*/
+
+    #contacto iframe {
+        width: 90%;
+        height: 300px;
+    }
+
+
+    /*-----------CONSULTA-INSCRIPCIONES------------*/
+
+
+    #formulario-consulta{
+        height: 2500px;
+    } 
+
+    
+}

@@ -1,0 +1,129 @@
+
+/* ------------------HEADDER---------------- */
+
+header {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(224, 230, 246);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header div{
+    display: block;
+} 
+
+#logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(224, 230, 246);
+}
+
+#logo-container img {
+    margin-top: 30px;
+    width: 85px;
+}
+
+#contacto-header {
+    width: 400px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ig, #mail {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color linear 350ms;
+}
+
+#mail {
+    background-color: rgb(87, 135, 104);
+}
+
+#mail:hover {
+    margin: 0;
+    border: rgb(87, 135, 104) 3px solid;
+    background-color: unset;
+    transition: background-color linear 350ms;
+}
+
+#mail:hover i {
+    color: rgb(87, 135, 104);
+}
+
+#ig {
+    background-color: #343F64;
+}
+
+#ig:hover {
+    margin: 0;
+    border: #343F64 3px solid;
+    background-color: unset;
+    transition: background-color linear 350ms;
+}
+
+#ig:hover i {
+    color: #343F64;
+}
+
+a #sobre {
+    color: aliceblue;
+    font-size: 22px;
+}
+
+a #ig-logo {
+    color: aliceblue;
+    font-size: 22px;
+}
+
+#contacto-container {
+    text-align: center;
+}
+
+h4 {
+    color: #343F64;
+    font-size: 17px;
+}
+
+#contacto-container p{
+    font-size: 15px;
+}
+
+/* ----------------------CELULAR------------------------*/
+
+@media (max-width: 650px){
+    #ig, #mail {
+        display: none;
+    }
+
+    #logo-container{
+        width: 140px;
+        height: 140px;
+    }
+
+    #logo-container img{
+        width: 70px;
+    }
+
+    #contacto-header{
+        width: fit-content;
+        min-width: 240px;
+        padding-right: 10px;
+    }
+}
