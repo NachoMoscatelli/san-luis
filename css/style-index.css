@@ -181,13 +181,14 @@ h1{
 #niveles h4{
     font-size: 36px;
     font-weight: bold;
-    text-shadow: #E0E6F6 0 0 3px;
+    color: #FFDE5F;
+    text-shadow: #343F64 0 0 3px;
 }
 
 #niveles p{
     font-size: 20px;
-    color: #69718b;
-    text-shadow: #E0E6F6 0 0 3px;
+    color: #FFDE5F;
+    text-shadow: #343F64 0 0 3px;
 }
 
 #nivel-inicial {
@@ -221,12 +222,13 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    scroll-margin-top: 120px;
 }
 
 #nosotros > div {
     color: #343F64;
     background-color: #FEFEFE;
-    padding: 160px 50px 0 50px;
+    padding: 50px 50px 20px 50px;
     max-width: 900px;
     font-size: 22px;
     text-align: center;
@@ -340,7 +342,7 @@ h1{
 /* ------------------CONTACTO-------------------- */
 
 #contacto {
-    padding: 140px 0 0 0;
+    padding: 50px 0;
     background-color: #FFFFFF;
     color: #343F64;
     display: flex;
@@ -410,14 +412,6 @@ li#redes a i {
     font-size: 15px;
 }
 
-/* ------------------CONSULTA------------------- */
-
-#consulta-inscripciones {
-    padding-top: 140px;
-    padding-bottom: 40px;
-}
-
-
 /* ----------------------TABLET------------------------*/
 
 @media (max-width: 1023px){
@@ -436,18 +430,20 @@ li#redes a i {
         left: unset;
         position: absolute;
         top: 180px;
-        background-color: #959cb28f;
+        /* background-color: #959cb28f; */
         padding: 30px;
         border-radius: 5px;
     }
     
     #banner-container h1 {
-        text-shadow: #FFFFFF 0 0 10px;
+        color: #FAFAFA;
+        text-shadow: #343F64 0 0 10px;
     }
 
 
     #banner-container p {
-        text-shadow: #FFFFFF 0 0 10px;
+        color: #FFDE5F;
+        text-shadow: #69718b 0 0 3px;
     }
 
     #banner img {
@@ -548,6 +544,17 @@ li#redes a i {
         line-height: 34px;
     }
 
+    #banner-container h1 {
+        color: #343F64;
+        text-shadow: none;
+    }
+
+
+    #banner-container p {
+        color: #69718b;
+        text-shadow: none;
+    }
+
     #banner img{
         width: 80%;
         min-width: 300px;
@@ -576,7 +583,8 @@ li#redes a i {
     #banner-container ul {
         margin-top: 0;
         margin-right: 0;
-        flex-direction: column;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
     }
 
 
@@ -597,7 +605,11 @@ li#redes a i {
         font-size: 20px;
     }
     /*-------------NIVELES--------------*/
-        
+    
+    #niveles h3 {
+        font-size: 34px;
+    }
+    
     #niveles-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -643,13 +655,4 @@ li#redes a i {
         height: 300px;
     }
 
-
-    /*-----------CONSULTA-INSCRIPCIONES------------*/
-
-
-    #formulario-consulta{
-        height: 2500px;
-    } 
-
-    
 }

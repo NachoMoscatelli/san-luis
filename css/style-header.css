@@ -34,16 +34,16 @@ header div{
 
 #contacto-header {
     width: 400px;
-    height: 175px;
+    /* height: 175px; */
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: end;
+    gap: 20px;
 }
 
 #ig, #mail {
     width: 50px;
     height: 50px;
-    margin: 3px;
     border-radius: 50%;
     border: none;
     display: flex;
@@ -57,7 +57,6 @@ header div{
 }
 
 #mail:hover {
-    margin: 0;
     border: rgb(87, 135, 104) 3px solid;
     background-color: unset;
     transition: background-color linear 350ms;
@@ -72,7 +71,6 @@ header div{
 }
 
 #ig:hover {
-    margin: 0;
     border: #343F64 3px solid;
     background-color: unset;
     transition: background-color linear 350ms;
@@ -105,6 +103,53 @@ h4 {
     font-size: 15px;
 }
 
+#menu-nav {
+    position: relative;
+    display: inline-block;
+}
+
+#menu-button {
+    background-color: #343F64;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#menu-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    min-width: 150px;
+}
+
+#menu-dropdown li {
+    padding: 10px;
+    white-space: nowrap;
+}
+
+#menu-dropdown li a {
+    text-decoration: none;
+    color: #343F64;
+    display: block;
+}
+
+#menu-dropdown li:hover {
+    background-color: #ddd;
+}
+
+#menu-nav:hover #menu-dropdown {
+    display: block;
+    right: 0; 
+}
 /* ----------------------CELULAR------------------------*/
 
 @media (max-width: 650px){
