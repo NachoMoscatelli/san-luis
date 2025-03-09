@@ -33,6 +33,7 @@ html {
 main {
     background-color: #FEFEFE;
     margin-top: 120px;
+    padding-bottom: 40px;
 }
 
 
@@ -63,8 +64,9 @@ section {
 
 section > div {
     margin: auto;
-    width: 1000px;
-    padding: 0 50px;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 25px;
 }
 
 /* ------------------Aproximacion Psicologica -------------------- */
@@ -82,4 +84,57 @@ section > div {
 
 .turnos{
     text-align: center;
+}
+
+
+/* ----------------------TABLET------------------------*/
+
+@media (max-width: 1023px){
+
+    h2{
+        padding: 60px 0 0 0;
+    }
+
+    .img-descripcion{
+        flex-direction: column;
+        text-align: center;
+    }
+    .img-descripcion p {
+        text-align: justify;
+    }
+
+    #aprox-dos{
+        flex-direction: column;
+    }
+}
+
+
+/* ----------------------CELULAR------------------------*/
+
+@media (max-width: 650px){
+
+    h2 {
+        font-size: 40px;
+        padding: 50px 0 30px 0;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    section{
+        padding: 20px 0;
+    }
+
+    section > div {
+        padding: 0 30px;
+    }
+
+    h3{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 18px;
+    }
 }
