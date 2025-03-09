@@ -1,0 +1,85 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Jost", helvetica;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:visited{
+    color: white;
+}
+
+
+p{
+    line-height: 30px;
+}
+
+p i {
+    font-size: smaller;
+}
+
+html {
+    background-color: #FAFAFA;
+}
+
+/* ------------------MAIN-------------------- */
+
+main {
+    background-color: #FEFEFE;
+    margin-top: 120px;
+}
+
+
+h2 {
+    padding: 80px 0 50px 0;
+    font-size: 60px;
+    color: #343F64;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    color: #343F64;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: #69718b;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+section > div {
+    margin: auto;
+    width: 1000px;
+    padding: 0 50px;
+}
+
+/* ------------------Aproximacion Psicologica -------------------- */
+
+.img-descripcion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#aprox-dos{
+    flex-direction: row-reverse;
+}
+
+.turnos{
+    text-align: center;
+}
