@@ -43,9 +43,15 @@ h1 {
     color: #343F64;
     text-align: center;
 }
+h2{
+    font-size: 45px;
+    color: #343F64;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 h3{
-    font-size: 30px;
+    font-size: 40px;
     color: #343F64;
     margin-bottom: 20px;
 }
@@ -53,39 +59,21 @@ h3{
 p {
     font-size: 20px;
     color: #69718b;
+    text-align: justify;
 }
 
 section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
 }
 
 section > div {
     margin: auto;
     width: 100%;
     max-width: 1000px;
-    padding: 0 25px;
+    padding: 50px 25px;
 }
-
-/* ------------------Aproximacion Psicologica -------------------- */
-
-.img-descripcion {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-#aprox-dos{
-    flex-direction: row-reverse;
-}
-
-.turnos{
-    text-align: center;
-}
-
 
 /* ----------------------TABLET------------------------*/
 
@@ -95,17 +83,6 @@ section > div {
         padding: 60px 0 0 0;
     }
 
-    .img-descripcion{
-        flex-direction: column;
-        text-align: center;
-    }
-    .img-descripcion p {
-        text-align: justify;
-    }
-
-    #aprox-dos{
-        flex-direction: column;
-    }
 }
 
 
@@ -131,10 +108,11 @@ section > div {
     }
 
     h3{
-        font-size: 32px;
+        font-size: 28px;
     }
 
     p{
         font-size: 18px;
     }
+
 }
