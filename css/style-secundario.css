@@ -75,12 +75,38 @@ section > div {
     padding: 50px 25px;
 }
 
+/* -----------------ESCUELA SEC BASICA------------------ */
+
+.img-mobile{
+    display: none;
+}
+
+#chicos-comp{
+    float: left;
+}
+#chicos-lab{
+    float: right;
+}
+
+/* -----------------ESCUELA SEC SUPERIOR------------------ */
+.img-centrada {
+    display: block;
+    margin: auto;
+}
+
 /* ----------------------TABLET------------------------*/
 
 @media (max-width: 1023px){
 
     h1{
         padding: 60px 0 0 0;
+    }
+
+    /* -----------------ESCUELA SEC BASICA------------------ */
+    #chicos-lab{
+        float: unset;
+        display: block;
+        margin: auto;
     }
 
 }
@@ -115,4 +141,18 @@ section > div {
         font-size: 18px;
     }
 
+    /* -----------------ESCUELA SEC BASICA------------------ */
+    h2{
+        font-size: 32px;
+    }
+    .img-desk{
+        display: none;
+    }
+    .img-mobile{
+        display: block;
+    }
+    #chicos-lab{
+        display: none;
+    }
+    
 }
