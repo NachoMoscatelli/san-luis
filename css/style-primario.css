@@ -45,7 +45,7 @@ h2 {
 }
 
 h3{
-    font-size: 30px;
+    font-size: 40px;
     color: #343F64;
     margin-bottom: 20px;
 }
@@ -53,24 +53,62 @@ h3{
 p {
     font-size: 20px;
     color: #69718b;
+    text-align: justify;
 }
 
 section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
 }
 
 section > div {
     margin: auto;
     width: 100%;
     max-width: 1000px;
-    padding: 0 25px;
+    padding: 50px 25px;
+}
+/* ----------------------Edu Primaria------------------------*/
+/* 
+#edu-primaria > div{
+    background-color: #FAFAFA;
+} */
+
+#edu-primaria p{
+    margin: 5px 0;
 }
 
-/* ------------------Aproximacion Psicologica -------------------- */
+#edu-prim-uno{
+    position: relative;
+}
 
+#edu-prim-uno img{
+    float: right;
+    margin: 10px;
+}
+
+#edu-prim-dos img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* -----------------NUESTROS OBJETIVOS---------------------*/
+
+#objetivos > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------Nuestro Compromiso---------------------*/
+
+#compromiso > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
 
 /* ----------------------TABLET------------------------*/
 
@@ -80,6 +118,15 @@ section > div {
         padding: 60px 0 0 0;
     }
 
+    #objetivos > div {
+        display: block;
+        position: relative;
+    }
+    #objetivos img {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
 }
 
 
@@ -105,10 +152,20 @@ section > div {
     }
 
     h3{
-        font-size: 32px;
+        font-size: 28px;
     }
 
     p{
         font-size: 18px;
+    }
+
+    #compromiso > div {
+        display: block;
+        position: relative;
+    }
+    #compromiso img {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
     }
 }
