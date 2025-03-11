@@ -461,22 +461,8 @@ li#redes a i {
     /*-------------NOSOTROS--------------*/
     #nosotros > div {
         justify-content: space-evenly;
+        padding: 50px 10px 20px 10px;
     }
-
-    #nosotros article {
-        width: 130px;
-    }
-
-
-    #nosotros article p{
-        font-size: 22px;
-    }
-
-    .circle-logo {
-        width: 130px;
-        height: 130px;
-    }
-
 
     /*-------------CONTACTO--------------*/
     
@@ -601,9 +587,10 @@ li#redes a i {
     /*-----------DESCRIPCION------------*/
 
     #descripcion div {
-        padding: 50px;
+        padding: 50px 30px;
         font-size: 20px;
     }
+
     /*-------------NIVELES--------------*/
     
     #niveles h3 {
