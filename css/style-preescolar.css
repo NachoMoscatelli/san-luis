@@ -82,6 +82,10 @@ section > div {
     flex-direction: row-reverse;
 }
 
+#horarios{
+    scroll-margin-top: 120px;
+}
+
 .turnos{
     text-align: center;
 }
