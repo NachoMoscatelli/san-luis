@@ -508,16 +508,28 @@ li#redes a i {
 
 @media (max-width: 650px){
 
-    /*----------- BANNER ------------*/
-    
-    h1{
-        font-size: 46px;
-        line-height: 54px;
-        font-weight: bold;
+    main{
+        margin-top: 120px;
     }
 
+    /*----------- BANNER ------------*/
+    
     #banner{
         padding-top: 20px;
+        display: block;
+        height: max-content;
+    }
+
+    #banner video{
+        display: none;
+    }
+
+    #banner img.desk-ipad{
+        display: block;
+        width: max-content;
+        right: unset;
+        width: 80%;
+        min-width: 300px;
     }
 
     #banner p {
@@ -532,6 +544,8 @@ li#redes a i {
     }
 
     #banner-container h1 {
+        font-size: 52px;
+        font-weight: bold;
         color: #343F64;
         text-shadow: none;
     }
