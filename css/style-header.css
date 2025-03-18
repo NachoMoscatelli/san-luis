@@ -33,7 +33,7 @@ header div{
 }
 
 #contacto-header {
-    width: 400px;
+    width: max-content;
     /* height: 175px; */
     display: flex;
     align-items: center;
@@ -108,7 +108,7 @@ h4 {
     display: inline-block;
 }
 
-#menu-button {
+.menu-button {
     background-color: #343F64;
     color: white;
     padding: 10px 20px;
