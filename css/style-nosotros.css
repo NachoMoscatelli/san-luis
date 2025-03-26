@@ -54,7 +54,7 @@ h2{
 }
 
 h2 img {
-    width: 80px;
+    width: 120px;
 }
 
 h3{
@@ -64,11 +64,17 @@ h3{
 }
 
 h4{
-    font-size: 32px;
+    font-size: 25px;
     color: #343F64;
-    margin-top: 20px;
-    /* margin-bottom: 20px; */
+    font-weight: bold;
 }
+
+h5{
+    font-size: 32px;
+    color: #69718b;
+    margin-top: 40px;
+}
+
 
 p, main li {
     font-size: 20px;
@@ -94,6 +100,9 @@ section > div {
     padding: 50px 25px;
 }
 
+main p{
+    margin-bottom: 10px;
+}
 
 #jornada, #examenes-internacionales, #arte-deporte, #calidad-educativa, #proyectos{
     background-color: #FAFAFA;
@@ -101,6 +110,15 @@ section > div {
 
 #educacion-emocional, #educacion-digital, #formacion-cristiana, #certificacion-utn{
     background-color: #F5F5F5;
+}
+
+/* ----------------------JORNADA------------------------*/
+#jornada-info, #jornada-ingles, #jornada-talleres-optativos, #jornada-ingles, #jornada-inicial, #jornada-primario, #jornada-secundario{
+    padding-top: 60px;
+}
+
+#jornada article{
+    margin-top: 50px;
 }
 
 /* ----------------------TABLET------------------------*/
