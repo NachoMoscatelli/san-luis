@@ -108,7 +108,7 @@ main p{
     background-color: #FAFAFA;
 }
 
-#educacion-emocional, #educacion-digital, #formacion-cristiana, #certificacion-utn{
+#sala-multiedad, #educacion-emocional, #educacion-digital, #formacion-cristiana, #certificacion-utn{
     background-color: #F5F5F5;
 }
 
@@ -142,6 +142,7 @@ main p{
     }
     h2{
         font-size: 32px;
+        flex-wrap: wrap;
     }
 
     h3{
