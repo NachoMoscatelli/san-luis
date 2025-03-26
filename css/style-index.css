@@ -103,9 +103,10 @@ video {
 } 
 
 #banner-container ul {
-    margin-top: 70px;
-    margin-right: 25px;
+    margin-top: 70px;   
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
     justify-content: space-around;
     align-items: center;
 }
@@ -113,6 +114,7 @@ video {
 
 #banner-container li {
     display: block;
+    width: max-content;
 }
 
 #banner-container li a {
@@ -581,8 +583,7 @@ li#redes a i {
     #banner-container ul {
         margin-top: 0;
         margin-right: 0;
-        /* flex-direction: column; */
-        flex-wrap: wrap;
+        row-gap: 20px;
     }
 
 
