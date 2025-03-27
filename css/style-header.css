@@ -7,10 +7,16 @@ header {
     top: 0;
     width: 100%;
     height: 120px;
-    background-color: rgb(224, 230, 246);
+    background-color: transparent;
     display: inline-flex;
     align-items: center;
     justify-content: space-around;
+
+    transition: background-color ease-in 1s;
+}
+
+header.solid {
+    background-color: rgb(224, 230, 246); /* Fondo sólido */
 }
 
 header div{
@@ -23,9 +29,10 @@ header div{
     justify-content: space-around;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius:  0 0 50% 50%;
     background-color: rgb(224, 230, 246);
 }
+
 
 #logo-container img {
     margin-top: 30px;
