@@ -67,10 +67,20 @@ p, main li {
     font-size: 20px;
     color: #69718b;
     text-align: justify;
+    margin: 20px 0;
+}
+
+main ul p i {
+    font-size: larger;
 }
 
 main li{
     margin-left: 30px;
+}
+
+main li a, main li a:visited {
+    color: #343F64;
+    text-decoration: underline;
 }
 
 section {
