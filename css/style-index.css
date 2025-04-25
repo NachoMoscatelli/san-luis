@@ -219,13 +219,13 @@ video#presentacion {
 }
 
 #nivel-inicial {
-    background-image: url("../images/niveles/IMG_3150.JPG");
+    background-image: url("../images/niveles/jardin.JPG");
     background-position: top;
     background-size: cover;
 }
 
 #nivel-primario {
-    background-image: url("../images/niveles/IMG-20220927-WA0017.jpg");
+    background-image: url("../images/niveles/primaria.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -237,7 +237,7 @@ video#presentacion {
 }
 
 #nivel-slse {
-    background-image: url("../images/niveles/slse.jpg");
+    background-image: url("../images/niveles/slse.png");
     background-position: center;
     background-size: cover; 
 }
