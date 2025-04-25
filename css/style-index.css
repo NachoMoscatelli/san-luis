@@ -525,8 +525,9 @@ li#redes a i {
     /*----------- BANNER ------------*/
     
     #banner{
-        padding-top: 20px;
+        padding-top: 65px;
         display: block;
+        min-height: unset;
         height: max-content;
     }
 
