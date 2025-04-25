@@ -56,7 +56,7 @@ h1{
     font-weight: bold;
 }
 
-video {
+video#presentacion {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -530,7 +530,7 @@ li#redes a i {
         height: max-content;
     }
 
-    #banner video{
+    #banner video#presentacion{
         display: none;
     }
 
