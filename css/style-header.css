@@ -164,8 +164,8 @@ h4 {
 @media (max-width: 650px){
     
     #logo-container{
-        width: 140px;
-        height: 140px;
+        width: min-content;
+        /* height: 140px; */
     }
 
     #logo-container img{
