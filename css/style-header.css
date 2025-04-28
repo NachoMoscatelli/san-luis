@@ -26,8 +26,8 @@ header div{
 
 
 #logo-container img {
-    margin-top: 30px;
-    width: 85px;
+    /* margin-top: 30px; */
+    width: 130px;
 }
 
 #contacto-header {
@@ -174,7 +174,7 @@ h4 {
     }
 
     #logo-container img{
-        width: 70px;
+        width: 100px;
     }
 
     #logo-container a video {
