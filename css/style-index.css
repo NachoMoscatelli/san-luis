@@ -217,7 +217,7 @@ video#presentacion {
 }
 
 #nivel-inicial {
-    background-image: url("../images/niveles/jardin.jpg");
+    background-image: url("../images/niveles/jardin.png");
     background-position: top;
     background-size: cover;
 }
@@ -229,7 +229,7 @@ video#presentacion {
 }
 
 #nivel-secundario {
-    background-image: url("../images/niveles/secundaria.jpg");
+    background-image: url("../images/niveles/secundaria.png");
     background-position: center;
     background-size: cover;
 }

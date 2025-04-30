@@ -88,10 +88,26 @@ a #ig-logo {
     font-size: 22px;
 }
 
-#logo-container a video {
-    width: 130px; 
-    height: auto;
+#bandera-animada {
+    width: 134px;
+    height: 237px;
+    background-image: url('../images/bandera-frames.png');
+    background-size: 134px 9954px;
+    background-repeat: no-repeat;
+    animation: ondear 1s steps(40) 1 forwards;
+    /* transition: none; */
 }
+
+@keyframes ondear {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -9480px; 
+    } 
+   
+}
+  
 
 #contacto-container {
     text-align: center;
@@ -180,7 +196,27 @@ h4 {
     #logo-container a video {
         width: 100px;
     }
+
+    #bandera-animada {
+        width: 100px;
+        height: 170px;
+        background-image: url('../images/bandera-frames.png');
+        background-size: 100px 7140px;
+        background-repeat: no-repeat;
+        animation: ondear 1s steps(41) 1 forwards;
+        /* transition: none; */
+    }
     
+    @keyframes ondear {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 0 -6970px; 
+        } 
+       
+    }
+
     #contacto-header {
         width: max-content;
         padding-right: 10px;
