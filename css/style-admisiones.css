@@ -15,6 +15,7 @@ a:visited{
     color: white;
 }
 
+
 p{
     line-height: 30px;
 }
@@ -37,66 +38,110 @@ html, body {
     min-height: 100vh;
 }
 
-
 /* ------------------MAIN-------------------- */
 
 main {
     flex: 1;
     background-color: #FEFEFE;
     margin-top: 120px;
-}
-
-#consulta-inscripciones {
     padding-bottom: 40px;
 }
 
-#consulta-inscripciones > div {
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-    padding-bottom: 40px;
-}
 
-#consulta-inscripciones a {
-    text-decoration: underline;
-    color: black;
-}
-
-#consulta-inscripciones a:visited{
+h1 {
+    padding: 80px 0 50px 0;
+    font-size: 60px;
     color: #343F64;
-}
-
-h2{
-    color: #343F64;
-    font-size: 40px;
-    font-weight: 600;
     text-align: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+}
+h2{
+    font-size: 45px;
+    color: #343F64;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-p {
-    font-size: 20px;
+h3{
+    font-size: 40px;
     color: #343F64;
-    margin-top: 30px;
+    margin-bottom: 20px;
 }
+
+h4{
+    font-size: 32px;
+    color: #343F64;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+p, main li {
+    font-size: 20px;
+    color: #69718b;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+main li{
+    margin-left: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > div {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 50px 25px;
+}
+
 
 /* ----------------------TABLET------------------------*/
 
 @media (max-width: 1023px){
 
+    h1{
+        padding: 60px 0 0 0;
+    }
 
 }
+
 
 /* ----------------------CELULAR------------------------*/
 
 @media (max-width: 650px){
 
-    /*-----------CONSULTA-INSCRIPCIONES------------*/
+    h1 {
+        font-size: 40px;
+        padding: 50px 0 30px 0;
+    }
+    h2{
+        font-size: 32px;
+    }
 
-    #formulario-consulta{
-        height: 2500px;
-    } 
+    h3{
+        font-size: 28px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    main img {
+        width: 100%;
+    }
 
+    section{
+        padding: 20px 0;
+    }
+
+    section > div {
+        padding: 0 30px;
+    }
+
+    p, main li{
+        font-size: 18px;
+    }
     
 }
