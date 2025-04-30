@@ -104,11 +104,11 @@ main p{
     margin-bottom: 10px;
 }
 
-#jornada, #examenes-internacionales, #arte-deporte, #calidad-educativa, #proyectos{
+#jornada, #examenes-internacionales, #educacion-digital, #calidad-educativa, #formacion-cristiana{
     background-color: #FAFAFA;
 }
 
-#sala-multiedad, #educacion-emocional, #educacion-digital, #formacion-cristiana, #certificacion-utn{
+#sala-multiedad, #educacion-emocional, #arte-deporte, #proyectos, #certificacion-utn{
     background-color: #F5F5F5;
 }
 
