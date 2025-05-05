@@ -2,7 +2,7 @@
     position: fixed;
     right: 0;
     top: 35%;
-    transform: translateY(-50%) translateX(95%);
+    transform: translateY(-50%) translateX(0%);
     width: 300px;
     height: max-content;
     z-index: 1000;
@@ -11,11 +11,10 @@
     border-radius: 20px 0 0 20px;
     font-family:"Jost", helvetica;
     color:#343f64;
-    animation: rebote 3s ease-out infinite;
 }
 
 #aviso::before {
-    content: "< ";
+    content: "> ";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,13 +38,25 @@
 #aviso h5{
     font-size: 20px;
 }
-#aviso:hover{
-    transform: translateY(-50%) translateX(0%);
-    animation: none;
+
+
+/* Clase para ocultar con animación */
+.oculto {
+    animation: rebote 3s forwards infinite;
 }
 
-#aviso:hover::before {
-    content: ">";
+#aviso.oculto::before{
+    content: "< ";
+}
+
+/* Mostrar sin animación */
+.visible {
+    transform: translateY(-50%) translateX(0%) !important;
+    animation: none !important;
+}
+
+#aviso.visible::before{
+    content: "> ";
 }
 
 @keyframes rebote {
