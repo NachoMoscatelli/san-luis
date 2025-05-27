@@ -90,7 +90,15 @@ section > div {
 #edu-prim-dos img{
     display: block;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+#ninias-recreo{
+    width: 400px;
+    border: white 4px solid;
+    border-radius: 6px;
+    box-shadow: black 0 0 21px;
+    rotate: -5deg;
 }
 
 /* -----------------NUESTROS OBJETIVOS---------------------*/
@@ -100,6 +108,8 @@ section > div {
     justify-content: center;
     align-items: center;
 }
+
+
 
 /* -----------------Nuestro Compromiso---------------------*/
 
@@ -118,10 +128,16 @@ section > div {
         padding: 60px 0 0 0;
     }
 
+
+    #edu-prim-uno img{
+        margin: unset;
+    }
+
     #objetivos > div {
         display: block;
         position: relative;
     }
+    
     #objetivos img {
         display: block;
         margin: auto;
@@ -141,6 +157,10 @@ section > div {
 
     main img {
         width: 100%;
+    }
+
+    #ninias-recreo{
+        width: 80%;
     }
 
     section{

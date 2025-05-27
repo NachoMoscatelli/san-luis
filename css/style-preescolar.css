@@ -90,6 +90,14 @@ section > div {
     text-align: center;
 }
 
+#ninio-lupa{
+    width: 285px;
+    border: white 4px solid;
+    border-radius: 6px;
+    box-shadow: black 0 0 21px;
+    margin: 30px;
+    rotate: -5deg;
+}
 
 /* ----------------------TABLET------------------------*/
 
@@ -110,6 +118,8 @@ section > div {
     #aprox-dos{
         flex-direction: column;
     }
+
+
 }
 
 
@@ -124,6 +134,10 @@ section > div {
 
     main img {
         width: 100%;
+    }
+    
+    #ninio-lupa{
+        width: 80%;
     }
 
     section{

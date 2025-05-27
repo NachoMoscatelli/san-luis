@@ -69,6 +69,15 @@ h4{
     font-weight: bold;
 }
 
+article img{
+    width: 300px;
+    border: white 4px solid;
+    border-radius: 6px;
+    box-shadow: black 0 0 21px;
+    margin: 30px;
+    rotate: -5deg;
+}
+
 h5{
     font-size: 32px;
     color: #69718b;

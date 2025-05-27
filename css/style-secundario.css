@@ -94,6 +94,15 @@ section > div {
     align-items: center;
 }
 
+#chicos-en-ronda{
+    width: 400px;
+    border: white 4px solid;
+    border-radius: 6px;
+    box-shadow: black 0 0 21px;
+    margin: 30px;
+    rotate: 5deg;
+}
+
 /* -----------------ESCUELA SEC SUPERIOR------------------ */
 .img-centrada {
     display: block;
@@ -132,6 +141,11 @@ section > div {
 
     main img {
         width: 100%;
+    }
+
+    #chicos-en-ronda{
+        margin-top: 50px;
+        width: 80%;
     }
 
     section{
