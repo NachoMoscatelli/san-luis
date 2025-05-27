@@ -95,10 +95,12 @@ section > div {
 
 #ninias-recreo{
     width: 400px;
+    margin: 30px;
     border: white 4px solid;
     border-radius: 6px;
     box-shadow: black 0 0 21px;
-    rotate: -5deg;
+    rotate: 5deg;
+    
 }
 
 /* -----------------NUESTROS OBJETIVOS---------------------*/
@@ -141,7 +143,7 @@ section > div {
     #objetivos img {
         display: block;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 }
 

@@ -69,13 +69,43 @@ h4{
     font-weight: bold;
 }
 
-article img{
+article {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.invertido{
+    flex-direction: row-reverse;
+}
+
+
+article img, .img-css{
     width: 300px;
     border: white 4px solid;
     border-radius: 6px;
     box-shadow: black 0 0 21px;
     margin: 30px;
     rotate: -5deg;
+}
+
+.no-css-img {
+    width: 400px;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    rotate: 0deg;
+    border-radius: unset;
+    margin: unset;
+}
+
+#pantalla-escuala-abierta, #misa{
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    width: 500px;
+    rotate: 0deg;
 }
 
 h5{
@@ -173,4 +203,14 @@ main p{
         font-size: 18px;
     }
     
+    article, .invertido{
+        display: block;
+    }
+
+    article img, .no-css-img, .img-css, #pantalla-escuala-abierta, #misa {
+        display: block;
+        width: 80%;
+        margin: 50px auto;
+    }
+
 }
